@@ -21,7 +21,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 class DownloadCommand extends AbstractCommand
 {
-    protected function configure()
+    protected function configure(): void
     {
         $this->setName('downloader:download')
             ->addOption('avoid-database-download')

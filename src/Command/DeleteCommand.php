@@ -23,7 +23,7 @@ use Symfony\Component\Finder\Finder;
 
 class DeleteCommand extends AbstractCommand
 {
-    protected function configure()
+    protected function configure(): void
     {
         $this->setName('downloader:delete:old');
     }

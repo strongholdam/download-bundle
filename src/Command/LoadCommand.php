@@ -23,7 +23,7 @@ use Symfony\Component\Finder\Finder;
 
 class LoadCommand extends AbstractCommand
 {
-    protected function configure()
+    protected function configure(): void
     {
         $this->setName('downloader:load')
             ->addOption('current');

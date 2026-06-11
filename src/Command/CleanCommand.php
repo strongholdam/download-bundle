@@ -22,7 +22,7 @@ use Symfony\Component\Finder\Finder;
 
 class CleanCommand extends AbstractCommand
 {
-    protected function configure()
+    protected function configure(): void
     {
         $this->setName('downloader:clean');
     }
