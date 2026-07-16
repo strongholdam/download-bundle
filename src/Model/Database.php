@@ -29,7 +29,7 @@ class Database
      * @param string   $password
      * @param int|null $port
      */
-    public function __construct(string $host, string $name, string $user, string $password, int $port = null)
+    public function __construct(string $host, string $name, string $user, string $password, ?int $port = null)
     {
         $this->host = $host;
         $this->name = $name;

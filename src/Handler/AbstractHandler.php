@@ -45,7 +45,7 @@ abstract class AbstractHandler
      * @param int    $timeout
      * @return bool|string
      */
-    public function local(string $cmd, int $timeout = null)
+    public function local(string $cmd, ?int $timeout = null)
     {
         $this->log($cmd);
 
